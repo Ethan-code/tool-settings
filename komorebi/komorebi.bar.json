@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.32/schema.bar.json",
+    "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.31/schema.bar.json",
     "monitor": {
       "index": 0,
       "work_area_offset": {
@@ -9,7 +9,7 @@
         "bottom": 40
       }
     },
-    "font_family": "JetBrains Mono",
+    "font_family": "Consolas",
     "theme": {
       "palette": "Base16",
       "name": "Ashes",
@@ -23,7 +23,7 @@
             "hide_empty_workspaces": false
           },
           "layout": {
-            "enable": true
+            "enable": false
           },
           "focused_window": {
             "enable": true,
@@ -50,7 +50,7 @@
       },
       {
         "Network": {
-          "enable": true,
+          "enable": false,
           "show_total_data_transmitted": true,
           "show_network_activity": true
         }
