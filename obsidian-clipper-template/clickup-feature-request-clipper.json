@@ -1,0 +1,36 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "ClickUp Feature Request",
+	"behavior": "create",
+	"noteContentFormat": "\n> Feature Request 紀錄模板\n\n## Info\n- \n\n## Meeting\n- \n\n---\n## Todo\n> 格式：`- [ ] [[日期]] 待辦項目`\n\n## Note\n[[{{date}}]]\n- ",
+	"properties": [
+		{
+			"name": "tags",
+			"value": "type/feature-request",
+			"type": "multitext"
+		},
+		{
+			"name": "start date",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "due date",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "link (clickup)",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "link (figma)",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "{{title}}",
+	"path": "clickup-feature-request"
+}
