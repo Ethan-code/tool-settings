@@ -1,0 +1,36 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "ClickUp Bug",
+	"behavior": "create",
+	"noteContentFormat": "\n> Bug 執行紀錄模板\n\n## Info\n- \n\n---\n## Todo\n> 格式：`- [ ] [[日期]] 待辦項目`\n\n## Note\n[[{{date}}]]\n- ",
+	"properties": [
+		{
+			"name": "tags",
+			"value": "type/bug",
+			"type": "multitext"
+		},
+		{
+			"name": "start date",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "due date",
+			"value": "",
+			"type": "date"
+		},
+		{
+			"name": "link (clickup)",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "link (gitlab)",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "{{title}}",
+	"path": "clickup-bug"
+}

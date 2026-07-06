@@ -1,0 +1,31 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Literature Note",
+	"behavior": "create",
+	"noteContentFormat": "## Why am I reading this?\n%% Write this BEFORE reading. What question are you bringing in? %%\n- \n\n## What made me stop?\n%% Only note things that genuinely surprised or challenged you. %%\n- \n\n## My one-sentence takeaway\n%% Write this AFTER reading. If you can't, you haven't digested it yet. %%\n- \n\n---\n## Links to explore\n%% Add links after finishing. What does this connect to in your existing notes? %%\n- ",
+	"properties": [
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "author",
+			"value": "{{author|split:\\\", \\\"|wikilink|join}}",
+			"type": "multitext"
+		},
+		{
+			"name": "tags",
+			"value": "type/literature-note",
+			"type": "multitext"
+		},
+		{
+			"name": "created",
+			"value": "{{date}}",
+			"type": "date"
+		}
+	],
+	"triggers": [],
+	"noteNameFormat": "{{title}}",
+	"path": "literature-notes"
+}
